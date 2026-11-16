@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fff4f6">
+  <meta name="description" content="写给刘平的一封粉色生日信，农历十月二十，愿所有温柔都奔向你。">
+  <title>给刘平的一封生日信 ♡</title>
+  <style>
+    :root{--ink:#6c3545;--rose:#ef7899;--pink:#ffdce6;--paper:#fffdfb;--cream:#fff4f6;--line:#f4cbd5}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;background:var(--cream);overflow-x:hidden}
+    button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #b83f68;outline-offset:4px}
+    .background{position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(circle at 9% 19%,#ffe4e9 0 13%,transparent 27%),radial-gradient(circle at 92% 22%,#fffaf7 0 12%,transparent 25%),radial-gradient(circle at 80% 85%,#ffe2e9 0 15%,transparent 31%),#fff4f6}
+    .background:after{content:"";position:absolute;inset:0;opacity:.23;background-image:radial-gradient(#eaa8b8 .7px,transparent .7px);background-size:19px 19px}
+    .page{max-width:1120px;margin:auto;padding:0 24px}.topbar{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eecbd4}
+    .logo{font-family:Georgia,serif;font-size:17px;font-style:italic;letter-spacing:.04em}.logo b{color:var(--rose);font-style:normal;font-size:22px}.top-note{font-size:12px;letter-spacing:.16em;color:#ad7785}
+    .hero{min-height:700px;display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:30px;padding:40px 0 72px}.kicker{display:inline-flex;gap:10px;align-items:center;color:#b3637c;font-size:12px;font-weight:700;letter-spacing:.25em;text-transform:uppercase}.kicker:before{content:"";display:block;width:24px;height:1px;background:#dd8da3}
+    h1{font-family:Georgia,"STSong","Songti SC",serif;font-size:clamp(60px,8.4vw,110px);font-weight:400;line-height:1.15;letter-spacing:-.065em;margin:25px 0 14px}h1 strong{color:#e9628b;font-weight:400;white-space:nowrap}.hero p{font-size:16px;line-height:2.15;color:#936271;max-width:430px;margin:24px 0 29px}
+    .date{display:inline-flex;align-items:center;gap:10px;background:#fff;border:1px solid #f2cbd5;border-radius:30px;padding:11px 17px;color:#ad6177;font-size:13px;box-shadow:0 8px 24px #e39aaa1a}.date span{color:#e85f89}
+    .hero-actions{display:flex;align-items:center;gap:20px;margin-top:39px}.primary{border:0;border-radius:100px;background:#e96c91;color:#fff;padding:15px 26px;font-weight:700;box-shadow:0 12px 25px #d85c7a38;transition:transform .2s,box-shadow .2s}.primary:hover{transform:translateY(-3px);box-shadow:0 16px 30px #d85c7a50}.smallnote{color:#ad7888;font-size:12px}
+    .scene{position:relative;display:grid;place-items:center;min-height:580px}.scene:before{content:"";position:absolute;width:min(90%,480px);aspect-ratio:1;border-radius:50%;background:#ffe2e9;box-shadow:0 0 0 30px #ffeaf0,0 0 0 58px #fff8f8}.scene:after{content:"";position:absolute;bottom:26px;width:70%;height:22px;background:#d78ca44a;border-radius:50%;filter:blur(20px)}
+    .kitty{display:block;height:auto;width:min(100%,490px);position:relative;z-index:1;filter:drop-shadow(0 20px 15px #ce829b3b);animation:float 5s ease-in-out infinite}.float-heart{position:absolute;color:#eb7295;font-family:Georgia,serif;font-size:34px;z-index:2;animation:float 4s ease-in-out infinite}.h1{top:73px;left:10%}.h2{right:5%;top:135px;font-size:23px;animation-delay:1s}.h3{bottom:90px;left:13%;font-size:19px;animation-delay:2s}.sparkle{position:absolute;color:#e5a878;font-size:23px;z-index:2}.s1{top:25%;right:11%}.s2{bottom:29%;right:5%}
+    .ribbon{position:relative;text-align:center;padding:52px 20px 45px;border-top:1px solid #eccbd3}.ribbon .tiny{font-family:Georgia,serif;font-size:16px;font-style:italic;color:#d67e98}.ribbon h2{font-family:Georgia,"STSong","Songti SC",serif;font-weight:400;font-size:clamp(31px,4vw,48px);margin:12px 0}.ribbon p{color:#a67884;font-size:14px;line-height:1.9}
+    .moments{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding:12px 0 90px}.moment{position:relative;overflow:hidden;min-height:265px;background:#fffdfa;border:1px solid #f0d4d8;border-radius:24px;padding:26px;box-shadow:0 14px 35px #cd789013}.moment:nth-child(2){background:#ffe6ec}.moment:nth-child(3){background:#fff6e9}.moment .symbol{font-family:Georgia,serif;font-size:39px;color:#e77596}.moment h3{font-family:Georgia,"STSong","Songti SC",serif;font-weight:400;font-size:24px;margin:34px 0 9px}.moment p{font-size:13px;line-height:1.9;color:#9b7480;margin:0}.moment .number{position:absolute;right:25px;top:25px;font-family:Georgia,serif;color:#cfa9b0;font-size:12px}
+    .letter-section{padding:0 0 105px}.letter-shell{max-width:750px;margin:auto;padding:14px;background:#ffdce6;border-radius:28px;box-shadow:0 25px 80px #bf658227;transform:rotate(-1deg)}.letter{border:1px solid #e9bcc9;border-radius:20px;background:#fffdfb;padding:clamp(28px,7vw,65px);transform:rotate(1deg);text-align:center}.letter .seal{display:grid;place-items:center;margin:0 auto 18px;width:55px;height:55px;border-radius:50%;background:#ed7899;color:#fff;font-family:Georgia,serif;font-size:29px;box-shadow:0 7px 16px #df8aa6}.letter h2{font-family:Georgia,"STSong","Songti SC",serif;font-size:38px;font-weight:400;margin:10px 0 8px}.letter p{color:#9b7180;line-height:2.1;font-size:14px}.letter button{margin-top:15px}.letter-content{display:none;text-align:left;margin-top:35px;border-top:1px solid #f0d4dd;padding-top:26px;animation:appear .6s ease}.letter-content.open{display:block}.letter-content p{font-size:16px;line-height:2.25;color:#7d5361;margin:0 0 20px}.signature{text-align:right!important;color:#c76987!important;font-family:Georgia,"STSong","Songti SC",serif;font-size:20px!important}
+    .end{text-align:center;padding:15px 0 65px}.end .heart{font-size:34px;color:#ec7798}.end p{font-family:Georgia,"STSong","Songti SC",serif;font-size:18px;color:#9c6a7b}.end small{font-size:12px;color:#b68a98;letter-spacing:.1em}
+    .music-toggle{position:fixed;right:max(22px,env(safe-area-inset-right));bottom:max(22px,env(safe-area-inset-bottom));z-index:20;display:flex;align-items:center;gap:10px;border:1px solid #efbdcc;border-radius:100px;padding:10px 16px 10px 10px;background:#fffdfbf2;color:#a9506d;box-shadow:0 12px 32px #b8587833;backdrop-filter:blur(12px);font-size:13px;font-weight:700;transition:transform .2s,box-shadow .2s}.music-toggle:hover{transform:translateY(-2px);box-shadow:0 16px 36px #b8587842}.music-icon{display:grid;place-items:center;width:33px;height:33px;border-radius:50%;background:#fce0e8;color:#d85f84;font-size:19px}.music-toggle[aria-pressed="true"] .music-icon{background:#e96c91;color:white}
+    .petal{position:fixed;z-index:10;pointer-events:none;top:-30px;color:#ec7e9f;animation:fall linear forwards;opacity:.8}
+    @keyframes float{50%{transform:translateY(-12px)}}@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}@keyframes fall{to{transform:translate(var(--drift),110vh) rotate(420deg);opacity:0}}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;min-height:0;text-align:center;padding:76px 0 60px;gap:12px}.hero p{margin:22px auto 26px}.hero-actions{justify-content:center}.scene{min-height:400px}.scene:before{width:min(80%,360px)}.kitty{max-width:360px}.moments{grid-template-columns:1fr}.moment{min-height:190px}.moment h3{margin-top:18px}.top-note{display:none}}
+    @media(max-width:440px){.page{padding:0 18px}.hero{padding-top:55px}.hero-actions{flex-direction:column;gap:12px}.scene{min-height:350px}.scene:before{width:280px;box-shadow:0 0 0 19px #ffeaf0,0 0 0 36px #fff8f8}.kitty{width:290px}.letter-shell{padding:9px}.letter{padding:28px 21px}.letter-content p{font-size:15px}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <div class="background" aria-hidden="true"></div>
+  <div class="page">
+    <header class="topbar"><div class="logo"><b>♡</b> For Liu Ping</div><div class="top-note">A LITTLE LOVE LETTER · 10.20</div></header>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div><div class="kicker">A birthday made of love</div><h1 id="hero-title">把所有温柔，<br>留给<strong>刘平。</strong></h1><div class="date"><span>♥</span> 农历十月二十 · 属于你的生日</div><p>今天想把世界调成你喜欢的粉色。愿每一朵云、每一颗星，都悄悄替我对你说：生日快乐。</p><div class="hero-actions"><button class="primary" id="openTop" type="button">拆开给你的信&nbsp; ↗</button><span class="smallnote">里面藏着一点点真心话</span></div></div>
+        <div class="scene" aria-label="戴着粉红蝴蝶结的 Hello Kitty 风格小猫插画"><span class="float-heart h1" aria-hidden="true">♡</span><span class="float-heart h2" aria-hidden="true">♥</span><span class="float-heart h3" aria-hidden="true">♡</span><span class="sparkle s1" aria-hidden="true">✦</span><span class="sparkle s2" aria-hidden="true">✧</span>
+          <img class="kitty" src="./kitty-birthday.png" width="1176" height="1338" alt="戴粉色蝴蝶结、抱着爱心的可爱 Hello Kitty" fetchpriority="high">
+        </div>
+      </section>
+      <section class="ribbon" aria-labelledby="wishes-title"><div class="tiny">for my favorite person</div><h2 id="wishes-title">今天，想送你三份小小的祝福</h2><p>不需要很盛大的仪式，只希望这些温柔，能一直陪在你身边。</p></section>
+      <section class="moments" aria-label="三份生日祝福"><article class="moment"><span class="number">01</span><div class="symbol">✦</div><h3>愿你永远有光</h3><p>不管今天晴天还是雨天，都能在自己的世界里，找到闪闪发亮的理由。</p></article><article class="moment"><span class="number">02</span><div class="symbol">♡</div><h3>愿你一直被爱</h3><p>有人记得你的喜好，听懂你的心事，把你的笑容放在心上。</p></article><article class="moment"><span class="number">03</span><div class="symbol">☼</div><h3>愿你自由快乐</h3><p>想去的地方慢慢去，想做的事情大胆做，每一天都比昨天更喜欢自己。</p></article></section>
+      <section class="letter-section" id="letterSection" aria-labelledby="letter-title"><div class="letter-shell"><div class="letter"><div class="seal" aria-hidden="true">♡</div><div class="kicker">A note just for you</div><h2 id="letter-title">刘平，见信欢喜。</h2><p>有些话，想留给你亲自打开。</p><button class="primary" id="openLetter" type="button" aria-expanded="false" aria-controls="letterContent">打开这封信&nbsp; ♥</button><div class="letter-content" id="letterContent"><p>亲爱的刘平：</p><p>农历十月二十，是我想认真记住的日子。因为在这一天，世界迎来了独一无二的你。</p><p>我希望你的生日不只是许愿和吹蜡烛，也是一句笃定的提醒：你值得被偏爱，值得被温柔以待，值得拥有很多很多快乐。</p><p>如果可以，我想陪你看更多日落，吃更多好吃的，把平凡的日子过成我们喜欢的样子。未来的每一年，也想继续对你说这句——生日快乐。</p><p class="signature">永远为你心动的人 ♡</p></div></div></div></section>
+    </main>
+    <footer class="end"><div class="heart">♥</div><p>愿你每一岁，都奔走在自己的热爱里。</p><small>HAPPY BIRTHDAY, LIU PING · 农历十月二十</small></footer>
+  </div>
+  <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false"><span class="music-icon" aria-hidden="true">♫</span><span id="musicLabel">播放音乐</span></button>
+  <script>
+    const letterSection=document.getElementById('letterSection');
+    const openLetter=document.getElementById('openLetter');
+    const letterContent=document.getElementById('letterContent');
+    function petals(){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;for(let i=0;i<24;i++){const p=document.createElement('span');p.className='petal';p.textContent=i%3===0?'♥':'♡';p.style.left=Math.random()*100+'vw';p.style.fontSize=(13+Math.random()*18)+'px';p.style.setProperty('--drift',(Math.random()*170-85)+'px');p.style.animationDuration=(3+Math.random()*3)+'s';p.style.animationDelay=(Math.random()*1.5)+'s';document.body.appendChild(p);setTimeout(()=>p.remove(),7500)}}
+    function reveal(){if(!letterContent.classList.contains('open')){letterContent.classList.add('open');openLetter.setAttribute('aria-expanded','true');openLetter.textContent='信已打开 ♡';petals()}letterSection.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'})}
+    openLetter.addEventListener('click',reveal);
+    document.getElementById('openTop').addEventListener('click',reveal);
+    const musicToggle=document.getElementById('musicToggle');
+    const musicLabel=document.getElementById('musicLabel');
+    const AudioContextClass=window.AudioContext||window.webkitAudioContext;
+    let musicContext=null,musicMaster=null,musicTimer=null,nextNoteTime=0,stepIndex=0;
+    const musicStep=60/76/2;
+    const musicBars=[
+      {root:53,arp:[65,69,72,69],melody:[72,null,74,null,76,74,72,null]},
+      {root:50,arp:[62,65,69,65],melody:[72,null,69,null,67,69,72,null]},
+      {root:46,arp:[62,65,70,65],melody:[74,null,72,null,70,69,67,null]},
+      {root:48,arp:[64,67,72,67],melody:[69,null,67,null,72,76,72,null]},
+      {root:53,arp:[65,69,72,69],melody:[72,null,74,null,76,79,76,null]},
+      {root:50,arp:[62,65,69,65],melody:[77,null,76,null,74,72,69,null]},
+      {root:46,arp:[62,65,70,65],melody:[74,null,72,null,70,69,67,null]},
+      {root:48,arp:[64,67,72,67],melody:[69,null,72,null,76,72,69,null]}
+    ];
+    function playTone(midi,time,length,volume){
+      const frequency=440*Math.pow(2,(midi-69)/12);
+      const note=musicContext.createGain();
+      note.gain.setValueAtTime(.0001,time);
+      note.gain.linearRampToValueAtTime(volume,time+.018);
+      note.gain.exponentialRampToValueAtTime(.0001,time+length);
+      note.connect(musicMaster);
+      const bell=musicContext.createOscillator();bell.type='sine';bell.frequency.setValueAtTime(frequency,time);bell.connect(note);
+      const shimmer=musicContext.createOscillator();shimmer.type='sine';shimmer.frequency.setValueAtTime(frequency*2.01,time);
+      const shimmerGain=musicContext.createGain();shimmerGain.gain.value=.16;shimmer.connect(shimmerGain);shimmerGain.connect(note);
+      bell.start(time);shimmer.start(time);bell.stop(time+length+.02);shimmer.stop(time+length+.02);
+      bell.onended=()=>{note.disconnect();shimmerGain.disconnect()};
+    }
+    function scheduleMusic(){
+      while(nextNoteTime<musicContext.currentTime+.18){
+        const bar=musicBars[Math.floor(stepIndex/8)%musicBars.length],step=stepIndex%8;
+        if(step===0)playTone(bar.root,nextNoteTime,musicStep*6,.13);
+        if(step%2===0)playTone(bar.arp[step/2],nextNoteTime,musicStep*2.5,.075);
+        if(bar.melody[step]!==null)playTone(bar.melody[step],nextNoteTime,musicStep*2.1,.095);
+        nextNoteTime+=musicStep;stepIndex=(stepIndex+1)%(musicBars.length*8);
+      }
+    }
+    function stopMusic(){
+      if(!musicContext)return;
+      clearInterval(musicTimer);musicTimer=null;
+      const oldContext=musicContext,oldMaster=musicMaster;
+      oldMaster.gain.cancelScheduledValues(oldContext.currentTime);
+      oldMaster.gain.setTargetAtTime(.0001,oldContext.currentTime,.06);
+      musicContext=null;musicMaster=null;
+      setTimeout(()=>oldContext.close().catch(()=>{}),300);
+      musicToggle.setAttribute('aria-pressed','false');musicLabel.textContent='播放音乐';
+    }
+    async function startMusic(){
+      if(!AudioContextClass){musicLabel.textContent='浏览器不支持音乐';musicToggle.disabled=true;return}
+      try{
+        musicContext=new AudioContextClass();musicMaster=musicContext.createGain();musicMaster.gain.value=.44;musicMaster.connect(musicContext.destination);
+        await musicContext.resume();
+        nextNoteTime=musicContext.currentTime+.05;stepIndex=0;scheduleMusic();musicTimer=setInterval(scheduleMusic,70);
+        musicToggle.setAttribute('aria-pressed','true');musicLabel.textContent='暂停音乐';
+      }catch{stopMusic();musicLabel.textContent='播放失败，请重试'}
+    }
+    musicToggle.addEventListener('click',()=>musicContext?stopMusic():startMusic());
+    document.addEventListener('visibilitychange',()=>{if(document.hidden)stopMusic()});
+  </script>
+</body>
+</html>
